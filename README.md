@@ -15,6 +15,11 @@ The purpose of this proof of concept is to find out if an LLM can take an existi
 * The conversion effort by Claude Code did not perform a line-by-line conversion of the original SAS code into Python. It analyzed the entire SAS codebase before coming up with a new modular design, then scaffolded the entire project, before proceeding with the SAS to Python conversion.
 * The converted Python code resides under python_hmm_examples/ directory
 * Successful passing of all unit and integration tests. See [python_hmm_examples/TEST_SUMMARY.md](python_hmm_examples/TEST_SUMMARY.md) for details.
+* **Update**: Converted hmmex03.sas (Business Cycle Analysis) to Python. The hmmex04.sas file was excluded from conversion as it was deleted.
+
+### PoC Assessment
+* See [POC_ASSESSMENT.md](POC_ASSESSMENT.md) for detailed assessment of the SAS to Python conversion plan ([PYTHON_CONVERSION_PLAN.md](PYTHON_CONVERSION_PLAN.md)) and the conversion implementation.
+* We manually confirmed the these findings, especially from Claude Code (using Opus 4) since it does a much more comprehensive analysis of the code than Gemini CLI
 
 ## Running the code
 See [python_hmm_examples/README.md](python_hmm_examples/README.md)
