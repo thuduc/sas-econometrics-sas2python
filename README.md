@@ -1,6 +1,6 @@
 ## GenAI Proof of Concept: SAS to Python conversion using Claude Code
 
-The purpose of this proof of concept is to find out if an LLM can take an existing SAS codebase and converted it to Python. The project we will be using for this PoC is the sas-econometrics-example project (a SAS econometric libary) from SAS Institute: https://github.com/sassoftware/sas-econometrics-examples
+The purpose of this proof of concept is to find out if an LLM can take an existing SAS codebase and convert it to Python. The project we will be using for this PoC is the sas-econometrics-example project (a SAS econometric libary) from SAS Institute: https://github.com/sassoftware/sas-econometrics-examples
 
 ### LLM & AI Tool
 * LLM used: Claude Opus 4 (best coding LLM) - https://www.anthropic.com/claude/opus
